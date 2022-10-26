@@ -64,8 +64,8 @@ public class Mainfirst {
                      //输入一批整数，比较并输出最大值和最小值
                      //输入0时就结束循环
                      //声明变量
-                     int max =-99999;        //最大整数
-                     int min = 99999;        //最小整数
+                     int max =0;        //最大整数
+                     int min =0;        //最小整数
                      int aInteger ;    //一整数
                      Scanner input = new Scanner(System.in);
                      System.out.println("输入整数（输入0时结束）");
@@ -75,11 +75,12 @@ public class Mainfirst {
                          if(aInteger>max) {
                              //把输入的最大整数赋值给NumMax
                              max = aInteger;
-                         }else if(aInteger<min&&aInteger!=0) {
+                         }else if(aInteger<min) {
                              //把输入的最小整数赋值给NumMin，并且aInteger不为零
                              min = aInteger;
                          }
-                     }while(aInteger!=0);//aInteger不为0，继续循环
+                     }while(aInteger !=0);
+                     //aInteger不为0，继续循环
                      System.out.println("最大值："+max+"\t最小值："+min);
                  }
          static void Out_the_number_of_daffodils(){
