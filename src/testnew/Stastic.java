@@ -1,3 +1,5 @@
+package testnew;
+
 import java.util.Scanner;
 /**
 * &#064;program: Shop
