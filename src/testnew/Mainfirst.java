@@ -1,4 +1,4 @@
-package testnew;
+package CircleTest.src.testnew;
 
 import java.util.Scanner;
 /**
