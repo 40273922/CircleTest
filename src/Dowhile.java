@@ -1,3 +1,5 @@
+package CircleTest.src;
+
 import java.util.Scanner;
 
 /**

@@ -1,6 +1,11 @@
+package CircleTest.src;
+
 import java.util.Scanner;
 public class Dfs {
-    public static void main(String[] args) {
+    public Dfs ( ) {
+    }
+    
+    public static void main( String[] args) {
         int n , t , i, k;
         Scanner cin = new Scanner(System.in);
         System.out.print("请输入一个整数：");
